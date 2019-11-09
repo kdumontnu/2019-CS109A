@@ -1,0 +1,23 @@
+id: post id number on facebook
+html: HTML of the ad as collected by the Political Ad Collector
+political: number of Political Ad Collector users who have voted that the ad is political
+not_political: number of Political Ad Collector users who have voted that the ad is not political
+title: ad title
+message: ad content
+thumbnail: link for a thumbnail of the profile image (of the advertiser)
+created_at: date ad was first collected by the Political Ad Collector
+updated_at: the most recent time that it got an impression OR the most recent time it was voted on
+lang: language of the ad. always en-US.
+images: link for images included in the ad
+impressions: number of times the ad has been seen by the Political Ad Collector
+political_probability: calculated by the classifier. data only includes ads with a probability >=0.7
+targeting: Facebook’s “Why am I seeing this?” disclosure provided to Political Ad Collector users
+suppressed: value is false. suppressed ads are excluded from this data set because they were misclassified.
+targets: a parsed version of targeting
+advertiser: the account that posted the ad
+entities: named entities mentioned in the ad, extracted using software
+page: the page that posted the ad 
+lower_page: the Facebook URL of the advertiser that posted the ad (the “page” column, lowercased)
+targetings: an array of one or more of Facebook’s “Why am I seeing this?” disclosures provided to Political Ad Collector users 
+paid_for_by: for political ads, the entity listed in Facebook’s required disclosure as having paid for the ad 
+targetedness: an internal metric for estimating how granularly an ad is targeted, used for sorting in the ProPublica search interface

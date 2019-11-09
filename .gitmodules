@@ -1,0 +1,3 @@
+[submodule "project/opendata"]
+	path = project/opendata
+	url = git@github.com:klout/opendata.git
